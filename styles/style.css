@@ -22,3 +22,114 @@ body {
 h1, h2, h3 {
     font-family: "Poppins", sans-serif;
 }
+
+.container {
+    padding: 1rem;
+}
+
+.button_primary {
+    padding: 0.5rem 2rem;
+    color: var(--very-dark-cyan);
+    background-color: #fff;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 10px 10px -5px lightgray;
+
+    font-weight: 700;
+}
+
+.button_secondary {
+    padding: 0.8rem 4rem;
+    color: #fff;
+    background-color: var(--pink);
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 10px 10px -5px lightgray;
+}
+
+/* Header contents */
+
+.header {
+    width: 100%;
+
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-color: var(--very-pale-cyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header_nav-logo {
+    width: 40%;
+}
+
+.header_nav-logo img {
+    width: 140px;
+}
+
+.header_content {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    line-height: 1.5;
+    text-align: center;
+}
+
+.header_content-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.header_content-text h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.header_content-text p {
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+}
+
+.header_content-image {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header_content-image img {
+    width: 100%;
+}
+
+
+/*About Us*/
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px lightgrey;
+
+    padding: 5rem 2rem;
+}
+
+.card-image {
+    width: 100%;
+}
