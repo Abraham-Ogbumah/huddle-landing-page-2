@@ -160,8 +160,8 @@ footer {
     background-color: #fff;
     border-radius: 20px;
     padding: 2rem 0.5rem;
-    margin-top: -7rem;
-    margin-bottom: 4rem;
+    margin: -7rem auto 4rem;
+    max-width: 480px;
     box-shadow: 2px -7px 15px -7px lightgrey;    
     text-align: center;
 }
@@ -188,4 +188,73 @@ footer {
 .contact-icon {
     margin-top: 4px;
     width: 18px;
+}
+
+.bottom-links li {
+    list-style: none;
+    margin-bottom: 1.2rem;
+}
+
+.links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    width: 45%;
+    max-width: 160px;
+    margin: 3rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0px 4px;
+}
+
+ion-icon {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+ion-icon:hover {
+    color: var(--soft-magenta)
+}
+
+.copyright {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:991px) {
+    .header {
+        background-image: url("../images/bg-hero-desktop.svg");
+    }
+
+    .card-container {
+        padding: 3rem 2rem;
+    }
+
+    .about-us {
+        text-align: left;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-image {
+        width: 40%;
+    }
 }
