@@ -240,8 +240,20 @@ ion-icon:hover {
         background-image: url("../images/bg-hero-desktop.svg");
     }
 
+    .header_content {
+       display: flex;
+       width: 100%;
+       margin: 0;
+       text-align: left;
+       line-height: 1.2;
+    }
+
     .card-container {
-        padding: 3rem 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .h2_sub_header {
+        margin-top: 0;
     }
 
     .about-us {
@@ -256,5 +268,12 @@ ion-icon:hover {
 
     .card-image {
         width: 40%;
+    }
+}
+
+@media (min-width:1440px) {
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 }
