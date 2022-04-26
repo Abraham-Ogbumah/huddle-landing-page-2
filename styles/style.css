@@ -276,13 +276,36 @@ ion-icon:hover {
     }
 
     .flex {
+        max-width: 991px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 3rem;
     }
 
     .card-image {
         width: 40%;
+    }
+
+    .footer-details {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+
+        max-height: 280px;
+    }
+
+    .w {
+        width: 23%;
+    }
+
+    .socials {
+        margin: 0;
+        align-items: baseline;
+    }
+
+    .copyright {
+        text-align: right;
     }
 }
 
