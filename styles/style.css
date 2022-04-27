@@ -54,6 +54,11 @@ h1, h2, h3 {
     color: var(--very-dark-cyan);
 }
 
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 /* Header contents */
 
 .header {
@@ -152,7 +157,7 @@ h1, h2, h3 {
 
 footer {
     background-color: var(--very-dark-cyan);
-    color: #fff;
+    color: var(--grayish-blue);
     position: relative;
 }
 
@@ -196,7 +201,7 @@ footer {
 }
 
 .links {
-    color: #fff;
+    color: var(--grayish-blue);
     text-decoration: none;
 }
 
@@ -227,7 +232,7 @@ ion-icon {
 }
 
 ion-icon:hover {
-    color: var(--soft-magenta)
+    color: var(--pink)
 }
 
 .copyright {
@@ -269,6 +274,7 @@ ion-icon:hover {
 
     .h2_sub_header {
         margin-top: 0;
+        font-size: 1.5rem;
     }
 
     .about-us {
@@ -306,6 +312,10 @@ ion-icon:hover {
 
     .copyright {
         text-align: right;
+    }
+
+    .rr {
+        flex-direction: row-reverse;
     }
 }
 
