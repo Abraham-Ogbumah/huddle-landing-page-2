@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Abraham-Ogbumah](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@theRealhaybee](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Abraham-Ogbumah](https://www.frontendmentor.io/profile/Abraham-Ogbumah)
+- Twitter - [@theRealhaybee](https://www.twitter.com/theRealhaybee)
